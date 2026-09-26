@@ -1,0 +1,1 @@
+iverilog -o ALU.vvp tb_ALU.v

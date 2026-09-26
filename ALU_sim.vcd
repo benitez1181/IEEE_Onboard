@@ -1,0 +1,146 @@
+$date
+	Fri Sep 25 21:40:14 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_tb $end
+$var wire 1 ! Zero $end
+$var wire 32 " Result [31:0] $end
+$var wire 1 # Overflow $end
+$var wire 1 $ Negative $end
+$var wire 1 % Carry $end
+$var reg 32 & A [31:0] $end
+$var reg 3 ' ALUControl [2:0] $end
+$var reg 32 ( B [31:0] $end
+$scope module dut $end
+$var wire 32 ) A [31:0] $end
+$var wire 3 * ALUControl [2:0] $end
+$var wire 32 + B [31:0] $end
+$var parameter 3 , ADD $end
+$var parameter 3 - AND $end
+$var parameter 3 . OR $end
+$var parameter 3 / SLT $end
+$var parameter 3 0 SUB $end
+$var reg 1 % Carry $end
+$var reg 1 $ Negative $end
+$var reg 1 # Overflow $end
+$var reg 32 1 Result [31:0] $end
+$var reg 1 ! Zero $end
+$var reg 33 2 temp [32:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 0
+b101 /
+b11 .
+b10 -
+b0 ,
+$end
+#0
+$dumpvars
+b0 2
+b0 1
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+0$
+0#
+b0 "
+1!
+$end
+#10000
+b1111 "
+b1111 1
+b1111 2
+0!
+b101 (
+b101 +
+b1010 &
+b1010 )
+#20000
+1%
+1!
+b0 "
+b0 1
+b100000000000000000000000000000000 2
+b1 (
+b1 +
+b11111111111111111111111111111111 &
+b11111111111111111111111111111111 )
+#30000
+1$
+1#
+b10000000000000000000000000000000 "
+b10000000000000000000000000000000 1
+b10000000000000000000000000000000 2
+0%
+0!
+b1111111111111111111111111111111 &
+b1111111111111111111111111111111 )
+#40000
+b101 "
+b101 1
+0#
+0$
+b1 '
+b1 *
+b101 (
+b101 +
+b1010 &
+b1010 )
+#50000
+1$
+b11111111111111111111111111111011 "
+b11111111111111111111111111111011 1
+b1010 (
+b1010 +
+b101 &
+b101 )
+#60000
+1#
+b1111111111111111111111111111111 "
+b1111111111111111111111111111111 1
+0$
+b1 (
+b1 +
+b10000000000000000000000000000000 &
+b10000000000000000000000000000000 )
+#70000
+1!
+b0 "
+b0 1
+0#
+b10 '
+b10 *
+b1111000011110000111100001111 (
+b1111000011110000111100001111 +
+b11110000111100001111000011110000 &
+b11110000111100001111000011110000 )
+#80000
+1$
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 1
+0!
+b11 '
+b11 *
+#90000
+b1 "
+b1 1
+0$
+b101 '
+b101 *
+b1010 (
+b1010 +
+b101 &
+b101 )
+#100000
