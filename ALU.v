@@ -1,3 +1,6 @@
+/* I had to change the testbench to work on Icarus Verilog, but kepts the same 
+    test cases. Not sure if it was possible to run SV testbench on Icarus Verilog
+*/
 module ALU(
     input wire signed [31: 0] A, B,
     input wire [2:0] ALUControl,
